@@ -22,7 +22,7 @@ h2 {
 }
 .content .homepageimagecontainer .homepageimage{
 	width: 250px;
-	opacity: .9;
+	opacity: .8;
 }
 .overlayimage {
 	width: 100%;
@@ -42,6 +42,7 @@ div .homepagebutton {
 	border:none;
 	background-color: #4c4c4c;
 	color: white;
+	opacity:.8;
 }
 div .logininput {
 	width: 40em;
@@ -51,6 +52,9 @@ div .logininput {
 	color: #4c4c4c;
 	margin: .2em;
 	padding: .5em;
+}
+div .homepagebutton:hover {
+	opacity: 1;
 }
 div .homepagebutton a{
 	text-decoration: none;
@@ -82,10 +86,30 @@ footer p {
 }
 .ui-state-active {
 	background-color: #4c4c4c;
-	border: 1px solid black;
+	border: 1px solid white;
 }
-
-
-
-
-
+.hiddenbutreadable {
+	position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.ui-widget-content {
+	background-color: #4c4c4c;
+	color: white;
+	border: 1px solid white;
+	opacity: .8
+}
+.ui-widget-content a {
+	text-decoration: none;
+	color: white;
+	opacity:.8;
+}
+.ui-widget-content a:hover {
+	opacity: 1;
+}
+ul li {
+	list-style: none;
+}
