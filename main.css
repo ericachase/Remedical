@@ -43,15 +43,32 @@ div .homepagebutton {
 	background-color: #4c4c4c;
 	color: white;
 }
+div .logininput {
+	width: 40em;
+	height: 2.2em;
+	border:none;
+	background-color: white;
+	color: #4c4c4c;
+	margin: .2em;
+	padding: .5em;
+}
 div .homepagebutton a{
 	text-decoration: none;
 	color: white;
 }
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
 footer p {
 	font-family: arial;
 	font-size: .7em;
 	text-align: center;
-	margin-top: 10%;
 	opacity: .2;
 }
 
